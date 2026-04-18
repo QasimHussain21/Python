@@ -53,9 +53,7 @@ They allow you to **reuse code, reduce repetition, and organize logic efficientl
 def greet(name):
     return f"Hello {name}"
 
-print(greet("Qasim"))
-```
-
+print(greet("Qasim"))```
 ---
 
 💡 Why This Matters
@@ -67,6 +65,9 @@ Functions are used in:
 ✔ Clean structure
 ✔ Real-world projects
 
+
+
+---
 🎯 Outcome
 
 After this lecture, you will:
@@ -74,4 +75,7 @@ After this lecture, you will:
 Write reusable code
 Break problems into smaller parts
 Build structured programs
+---
+
+
 <p align="center"> <b>⚙️ Functions turn logic into reusable systems.</b> </p> 

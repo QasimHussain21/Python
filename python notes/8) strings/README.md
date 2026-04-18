@@ -72,5 +72,6 @@ After this lecture, you will:
 - Manipulate text efficiently
 - Format outputs professionally
 - Work with real-world data
+---
 
 <p align="center"> <b>🔤 Strings give meaning to data.</b> </p> 

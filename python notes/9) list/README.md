@@ -67,6 +67,8 @@ Lists are used in:
 ✔ Machine learning
 ✔ Real-world applications
 
+---
+
 🎯 Outcome
 
 After this lecture, you will:
@@ -74,5 +76,6 @@ After this lecture, you will:
 - Work with collections of data
 - Modify lists dynamically
 - Build efficient programs
+---
 
 <p align="center"> <b>📊 Lists are the backbone of data handling.</b> </p> 
