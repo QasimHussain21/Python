@@ -30,11 +30,11 @@ it’s about understanding **how code runs, how programs behave, and how you int
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1200/1*ZtK0rZ9x6G4qX9n1q7p8ZQ.png" width="550">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1646740286766/flow-python-code.png" width="520">
 </p>
 
 <p align="center">
-  <i>From code → execution → output</i>
+  <i>Code → Python Interpreter → Output</i>
 </p>
 
 ---
