@@ -32,7 +32,7 @@ In Python, variables are not just containers — they are **the building blocks 
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://medium.com/@kanchanakanta/variables-and-data-types-in-python-36a8d0db5c1d" width="520">
+  <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*NviJAr3KDuuwMN68TaV2-A.png" width="520">
 </p>
 
 <p align="center">
