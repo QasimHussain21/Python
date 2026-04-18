@@ -70,4 +70,4 @@ After this lecture, you will:
 - Format outputs professionally
 - Work with real-world data
 
-<p align="center"> <b>🔤 Strings give meaning to data.</b> </p> ```
+<p align="center"> <b>🔤 Strings give meaning to data.</b> </p> 

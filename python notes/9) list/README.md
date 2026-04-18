@@ -72,4 +72,4 @@ After this lecture, you will:
 - Modify lists dynamically
 - Build efficient programs
 
-<p align="center"> <b>📊 Lists are the backbone of data handling.</b> </p> ```
+<p align="center"> <b>📊 Lists are the backbone of data handling.</b> </p> 
