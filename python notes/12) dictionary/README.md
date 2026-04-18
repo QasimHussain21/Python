@@ -33,7 +33,7 @@ it’s about understanding **fast data access, organized records, and real-world
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*fazaCKZgbZUbjrCR6_WcaA.png" width="120">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*fazaCKZgbZUbjrCR6_WcaA.png" width="550">
 </p>
 
 <p align="center">

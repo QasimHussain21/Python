@@ -32,7 +32,7 @@ it’s about understanding **immutable collections, faster data storage, and org
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*MLPj51_cWJVcYgGrDZNigw.png" width="120">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*MLPj51_cWJVcYgGrDZNigw.png" width="550">
 </p>
 
 <p align="center">
