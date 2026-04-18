@@ -1,53 +1,72 @@
-# 🚀 Python Programming Mastery
+# 📖 Lecture 1: Getting Started with Python (Hello World)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Level-Beginner_to_Pro-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python">
-  <img src="https://img.shields.io/badge/Learning-Hands_On-success?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Focus-Real_World_Logic-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Topic-Introduction-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Concept-Basics-yellow?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Level-Beginner-success?style=for-the-badge">
 </p>
 
 ---
 
+## 🧠 Core Concept
+
+Every programming journey starts with a simple step — **writing your first program**.
+
+This lecture is not just about printing text,  
+it’s about understanding **how code runs, how programs behave, and how you interact with a machine**.
+
+---
+
+## ⚡ What You Will Learn
+
+- What is Python and why it is used  
+- Setting up your programming environment  
+- Writing your first Python program  
+- Understanding the `print()` function  
+- Basic syntax and formatting rules  
+
+---
+
+## 🖼️ Visual Understanding
+
 <p align="center">
-  <b>Master Python from scratch with a structured, lecture-wise journey.</b><br><br>
-  This repository is not just about syntax — it's about building <b>real programming thinking</b>.
+  <img src="https://miro.medium.com/v2/resize:fit:1200/1*ZtK0rZ9x6G4qX9n1q7p8ZQ.png" width="550">
+</p>
+
+<p align="center">
+  <i>From code → execution → output</i>
 </p>
 
 ---
 
-## 🧠 What Makes This Different?
+## 🧪 Code Example
 
-Most beginner courses focus only on *what to write*.  
-This course focuses on **how to think like a programmer**.
-
-✔ Concept clarity over memorization  
-✔ Step-by-step logical progression  
-✔ Clean, beginner-friendly explanations  
-✔ Practical, hands-on learning with notebooks  
+```python
+print("Hello, World!")
+```
 
 ---
 
-## 🎯 Who Is This For?
+## 💡 Why This Matters
 
-- Beginners starting from zero  
-- Students preparing for programming courses  
-- Self-learners aiming for strong fundamentals  
-- Anyone who wants to **think in code, not just write it**  
+This lecture builds your **first connection with programming**.
+
+✔ Understand how code is executed  
+✔ Learn the structure of a Python program  
+✔ Build confidence to start coding  
 
 ---
 
-## ⚡ Learning Philosophy
+## 🎯 Outcome
 
-> "Code is easy. Thinking is hard. This course trains your thinking."
+By the end of this lecture, you will:
 
-You will not just learn Python — you will learn:
-- How to break problems into steps  
-- How to write clean and readable code  
-- How to build logic from scratch  
+- Run your first Python program  
+- Understand basic syntax  
+- Be ready to move into real programming concepts  
 
 ---
 
 <p align="center">
-  <b>💻 Start simple. Think deeper. Build smarter. 🚀</b>
+  <b>🚀 Every expert was once a beginner — this is your starting point.</b>
 </p>
