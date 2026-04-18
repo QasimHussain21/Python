@@ -52,6 +52,7 @@ text = "python"
 
 print(text.upper())
 print(text[0:3])
+---
 
 💡 Why This Matters
 

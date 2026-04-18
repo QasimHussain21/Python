@@ -54,6 +54,7 @@ nums.append(4)
 nums.remove(2)
 
 print(nums)
+---
 
 💡 Why This Matters
 
