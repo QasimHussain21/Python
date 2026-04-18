@@ -51,8 +51,7 @@ They allow programs to **handle, modify, and display textual data**.
 text = "python"
 
 print(text.upper())
-print(text[0:3])
----
+print(text[0:3])```
 
 💡 Why This Matters
 
