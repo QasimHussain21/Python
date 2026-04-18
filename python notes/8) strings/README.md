@@ -36,7 +36,7 @@ They allow programs to **handle, modify, and display textual data**.
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*Y9nP6xZ7pK0kWqT7mR3g2w.png" width="550">
+  <img src="https://realpython.com/cdn-cgi/image/width=960,format=auto/https://files.realpython.com/media/Python-String-Formatting-Best-Practices_Watermarked-2.e0a560b0184d.jpg" width="550">
 </p>
 
 <p align="center">
@@ -64,6 +64,8 @@ Strings are used in:
 ✔ Web development
 ✔ Data processing
 ✔ Automation
+
+---
 
 🎯 Outcome
 

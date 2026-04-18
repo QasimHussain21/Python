@@ -38,7 +38,7 @@ They allow you to **reuse code, reduce repetition, and organize logic efficientl
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://cdn-images-1.medium.com/max/1200/1*JQ9p5r8Z6F0nM3lXzKk8lw.png" width="550">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*XrTbbQV3-MpUnMCkIKEwkQ.jpeg" width="550">
 </p>
 
 <p align="center">

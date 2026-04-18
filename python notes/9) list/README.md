@@ -36,7 +36,7 @@ They allow you to **manage, update, and organize collections of data**.
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*XH7K9pJ3k2k9F5rQ8k2Tqg.png" width="550">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*ZaWhbxRnAqoBflzKM4FZTA.png" width="550">
 </p>
 
 <p align="center">
