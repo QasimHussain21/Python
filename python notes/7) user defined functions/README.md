@@ -53,7 +53,8 @@ They allow you to **reuse code, reduce repetition, and organize logic efficientl
 def greet(name):
     return f"Hello {name}"
 
-print(greet("Qasim"))```
+print(greet("Qasim"))
+```
 
 💡 Why This Matters
 
