@@ -1,73 +1,135 @@
-# 📖 Lecture 5: Control Flow Statements
+# 📖 Lecture 4: Built-in Functions
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Topic-Control_Flow-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Focus-Decision_Making-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Level-Beginner_to_Intermediate-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Topic-Built--in_Functions-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Focus-Code_Efficiency-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Level-Beginner-success?style=for-the-badge">
 </p>
 
 ---
 
 ## 🧠 Core Concept
 
-Control flow statements allow your program to **make decisions and control execution flow**.
+Built-in functions are **predefined functions in Python** that perform common tasks.
 
-They turn simple code into **dynamic, logic-driven systems**.
+They help you write cleaner, faster, and more efficient code.
 
 ---
 
 ## ⚡ What You Will Learn
 
-- Conditional statements  
-- Decision-making logic  
-- Writing dynamic programs  
+* Common built-in functions
+* Input and output handling
+* Data manipulation
+* Writing efficient code
 
 ---
 
-## 🔀 Types of Control Flow
+## 🔧 Common Built-in Functions
 
-### 🔹 if Statement
+### 🔹 print()
 
 ```python
-age = 18
+print("Hello, World!")
+```
 
-if age >= 18:
-    print("You can vote")
-🔹 if-else Statement
-age = 16
+---
 
-if age >= 18:
-    print("Adult")
-else:
-    print("Minor")
-🔹 if-elif-else Ladder
-marks = 85
+### 🔹 input()
 
-if marks >= 90:
-    print("A Grade")
-elif marks >= 75:
-    print("B Grade")
-else:
-    print("C Grade")
-🖼️ Visual Understanding
-<p align="center"> <img src="https://miro.medium.com/v2/resize:fit:1400/1*Qn6KfWz3k7FQ3sK8t5dL9A.png" width="550"> </p> <p align="center"> <i>How control flow directs program execution based on conditions</i> </p>
-💡 Why This Matters
+```python
+name = input("Enter your name: ")
+print("Hello", name)
+```
 
-Control flow is used in:
+---
 
-✔ Decision-making systems
-✔ Game logic
+### 🔹 type()
+
+```python
+x = 10
+print(type(x))
+```
+
+---
+
+### 🔹 len()
+
+```python
+text = "Python"
+print(len(text))
+```
+
+---
+
+### 🔹 int(), float(), str()
+
+```python
+num = "5"
+
+print(int(num))     # string to integer
+print(float(num))   # string to float
+print(str(10))      # integer to string
+```
+
+---
+
+### 🔹 max() and min()
+
+```python
+numbers = [3, 7, 2, 9]
+
+print(max(numbers))
+print(min(numbers))
+```
+
+---
+
+### 🔹 sum()
+
+```python
+numbers = [1, 2, 3, 4]
+
+print(sum(numbers))
+```
+
+---
+
+## 🖼️ Visual Understanding
+
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*GJ6vFv7bK4mK3sW5j5rXqA.png" width="550">
+</p>
+
+<p align="center">
+  <i>Built-in functions simplify common programming tasks</i>
+</p>
+
+---
+
+## 💡 Why This Matters
+
+Built-in functions are used in:
+
+✔ Data handling
+✔ Input/output operations
+✔ Code optimization
 ✔ Real-world applications
-✔ Automation
 
-Without it, programs cannot adapt or make decisions.
+Without them, you would need to write repetitive code.
 
-🎯 Outcome
+---
+
+## 🎯 Outcome
 
 After this lecture, you will:
 
-- Write conditional logic
-- Build smart decision systems
-- Control program execution
+* Use built-in functions effectively
+* Write shorter and cleaner code
+* Improve program efficiency
 
-<p align="center"> <b>🧠 Control flow gives your program decision-making power.</b> </p> ```
+---
+
+<p align="center">
+  <b>⚡ Built-in functions make coding faster and smarter.</b>
+</p>

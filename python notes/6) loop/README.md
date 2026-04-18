@@ -18,10 +18,10 @@ They help automate tasks and reduce repetitive code.
 
 ## ⚡ What You Will Learn
 
-- `for` loops  
-- `while` loops  
-- Loop control (`break`, `continue`)  
-- Iteration logic  
+* `for` loops
+* `while` loops
+* Loop control (`break`, `continue`)
+* Iteration logic
 
 ---
 
@@ -32,24 +32,53 @@ They help automate tasks and reduce repetitive code.
 ```python
 for i in range(5):
     print(i)
-🔹 while Loop
+```
+
+---
+
+### 🔹 while Loop
+
+```python
 count = 0
 
 while count < 5:
     print(count)
     count += 1
-🔹 Loop Control
+```
+
+---
+
+### 🔹 Loop Control
+
+```python
+# break example
 for i in range(10):
     if i == 5:
         break
     print(i)
+
+# continue example
 for i in range(5):
     if i == 2:
         continue
     print(i)
-🖼️ Visual Understanding
-<p align="center"> <img src="https://miro.medium.com/v2/resize:fit:1400/1*6z9gYf6Xy5h3WqP2c3nTlw.png" width="550"> </p> <p align="center"> <i>How loops repeat execution until a condition is met</i> </p>
-💡 Why This Matters
+```
+
+---
+
+## 🖼️ Visual Understanding
+
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*6z9gYf6Xy5h3WqP2c3nTlw.png" width="550">
+</p>
+
+<p align="center">
+  <i>How loops repeat execution until a condition is met</i>
+</p>
+
+---
+
+## 💡 Why This Matters
 
 Loops are used in:
 
@@ -60,12 +89,18 @@ Loops are used in:
 
 Without loops, repetitive work becomes inefficient.
 
-🎯 Outcome
+---
+
+## 🎯 Outcome
 
 After this lecture, you will:
 
-- Use loops to automate tasks
-- Control iteration flow
-- Write efficient programs
+* Use loops to automate tasks
+* Control iteration flow
+* Write efficient programs
 
-<p align="center"> <b>🔁 Loops turn repetition into automation.</b> </p> ```
+---
+
+<p align="center">
+  <b>🔁 Loops turn repetition into automation.</b>
+</p>
