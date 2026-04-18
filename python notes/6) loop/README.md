@@ -69,7 +69,7 @@ for i in range(5):
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*6z9gYf6Xy5h3WqP2c3nTlw.png" width="550">
+  <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/0*2Oi7FVy-Pmx8PSFH" width="550">
 </p>
 
 <p align="center">

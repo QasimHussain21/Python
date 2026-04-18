@@ -61,7 +61,7 @@ else:
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*Qn6KfWz3k7FQ3sK8t5dL9A.png" width="550">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/0*uHOTfnSmUqMvKSqv.jpg" width="550">
 </p>
 
 <p align="center">
