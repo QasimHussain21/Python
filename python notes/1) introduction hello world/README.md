@@ -30,14 +30,16 @@ it’s about understanding **how code runs, how programs behave, and how you int
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1646740286766/flow-python-code.png" width="520">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="120">
 </p>
 
 <p align="center">
-  <i>Code → Python Interpreter → Output</i>
+  <img src="https://mermaid.ink/img/pako:eNp1kMFqwzAMhl9F6DkQ2m3aY5u0a2y2oQ9p0mQ0W0m8a0l6GZtqf3bHk3m5x0c1yQkQJb9c9Qv8lqz6wq2Qp1dQ0a3m9v7m5Q0yq0kq8q0o8zv0m3Q0p1mQmQmQmQmQmQ?type=png" width="520">
 </p>
 
----
+<p align="center">
+  <i>💡 Python Code → Interpreter → Execution → Output</i>
+</p>
 
 ## 🧪 Code Example
 
