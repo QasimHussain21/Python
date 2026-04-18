@@ -73,4 +73,6 @@ After this lecture, you will:
 - Break problems into smaller parts
 - Build structured programs
 
-<p align="center"> <b>⚙️ Functions turn logic into reusable systems.</b> </p>
+<p align="center"> 
+            <b>⚙️ Functions turn logic into reusable systems.</b> 
+</p>
