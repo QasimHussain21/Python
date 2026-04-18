@@ -1,8 +1,8 @@
-# 📖 Lecture 6: Loops
+# 📖 Lecture 6: Loops in Python
 
 <p align="center">
   <img src="https://img.shields.io/badge/Topic-Loops-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Focus-Automation-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Focus-Iteration-orange?style=for-the-badge">
   <img src="https://img.shields.io/badge/Level-Beginner_to_Intermediate-success?style=for-the-badge">
 </p>
 
@@ -10,17 +10,18 @@
 
 ## 🧠 Core Concept
 
-Loops allow you to **repeat a block of code multiple times**.
+Loops allow your program to **repeat a block of code multiple times**.
 
-They are essential for **automation and efficiency**.
+They help automate tasks and reduce repetitive code.
 
 ---
 
 ## ⚡ What You Will Learn
 
-- Repeating tasks  
-- Writing efficient programs  
-- Using loops effectively  
+- `for` loops  
+- `while` loops  
+- Loop control (`break`, `continue`)  
+- Iteration logic  
 
 ---
 
@@ -31,30 +32,40 @@ They are essential for **automation and efficiency**.
 ```python
 for i in range(5):
     print(i)
-
 🔹 while Loop
-i = 0
+count = 0
 
-while i < 5:
-    print(i)
-    i += 1
-
-⏹️ Loop Control
-break → Stops loop
-continue → Skips iteration
-
-for i in range(5):
-    if i == 3:
+while count < 5:
+    print(count)
+    count += 1
+🔹 Loop Control
+for i in range(10):
+    if i == 5:
         break
     print(i)
-
+for i in range(5):
+    if i == 2:
+        continue
+    print(i)
+🖼️ Visual Understanding
+<p align="center"> <img src="https://miro.medium.com/v2/resize:fit:1400/1*6z9gYf6Xy5h3WqP2c3nTlw.png" width="550"> </p> <p align="center"> <i>How loops repeat execution until a condition is met</i> </p>
 💡 Why This Matters
 
-✔ Automates repetitive tasks
-✔ Saves time
-✔ Improves efficiency
+Loops are used in:
+
+✔ Data processing
+✔ Automation
+✔ Iterative tasks
+✔ Real-world applications
+
+Without loops, repetitive work becomes inefficient.
 
 🎯 Outcome
-- Use loops confidently
-- Automate tasks
-- Write optimized code
+
+After this lecture, you will:
+
+- Use loops to automate tasks
+- Control iteration flow
+- Write efficient programs
+
+<p align="center"> <b>🔁 Loops turn repetition into automation.</b> </p> ```
