@@ -32,11 +32,11 @@ In Python, variables are not just containers — they are **the building blocks 
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1200/1*5QyZ9zv6xYj8qz8F0n3G7w.png" width="550">
+  <img src="https://raw.githubusercontent.com/python/cpython/main/Tools/demo/flow.png" width="520">
 </p>
 
 <p align="center">
-  <i>How variables store different types of data in memory</i>
+  <i>Python Code → Interpreter → Execution → Output</i>
 </p>
 
 ---
