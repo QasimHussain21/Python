@@ -35,7 +35,7 @@ They allow your program to **calculate, compare, and make decisions** — turnin
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*sJw2INiUrBL8fxygUjsizA.png" width="550">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*ZtK0rZ9x6G4qX9n1q7p8ZQ.png" width="550">
 </p>
 
 <p align="center">
