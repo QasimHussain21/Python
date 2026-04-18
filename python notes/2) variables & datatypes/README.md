@@ -35,9 +35,7 @@ In Python, variables are not just containers — they are **the building blocks 
   <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*NviJAr3KDuuwMN68TaV2-A.png" width="520">
 </p>
 
-<p align="center">
-  <i>Python Code → Interpreter → Execution → Output</i>
-</p>
+
 
 ---
 
