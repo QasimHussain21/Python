@@ -98,7 +98,7 @@ print(sum(numbers))
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="![alt text](image.png)" width="550">
+  <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*vkkb8Fp55uDQrjey_S8_sw.png" width="550">
 </p>
 
 <p align="center">
