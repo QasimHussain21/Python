@@ -36,7 +36,7 @@ it’s about understanding **how data can be visually represented, analyzed, and
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://matplotlib.org/stable/_images/sphx_glr_pyplot_001.png" width="650">
+  <img src="https://education.launchcode.org/data-analysis/_images/diagramPandasDataframe.png" width="650">
 </p>
 
 <p align="center">
