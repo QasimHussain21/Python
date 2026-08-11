@@ -1,121 +1,81 @@
-# 📊 Matplotlib
+# 📊 Lecture 11: Matplotlib in Python
 
 <p align="center">
-  <strong>Powerful, Flexible, and Customizable Data Visualization in Python</strong>
-</p>
-
-<p align="center">
-  <img src="https://matplotlib.org/stable/_images/sphx_glr_logos2_001_2_00x.png" alt="Matplotlib Logo" width="350">
-</p>
-
-<p align="center">
-  <a href="https://matplotlib.org/">Documentation</a> •
-  <a href="https://github.com/matplotlib/matplotlib">GitHub</a> •
-  <a href="https://matplotlib.org/stable/gallery/index.html">Examples</a>
+  <img src="https://img.shields.io/badge/Topic-Matplotlib-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Concept-Data%20Visualization-yellow?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Level-Beginner-success?style=for-the-badge">
 </p>
 
 ---
 
-## 📌 About
+## 🧠 Core Concept
 
-**Matplotlib** is one of the most widely used Python libraries for creating static, animated, and interactive visualizations.
+**Matplotlib** is a powerful Python library used to create graphs, charts, and visualizations from data.
 
-It provides a powerful API for transforming data into meaningful charts and graphs, making it an essential tool for **Data Science, Machine Learning, Scientific Computing, Statistics, and Data Analysis**.
-
-From simple line charts to complex scientific visualizations, Matplotlib gives you detailed control over almost every aspect of a figure.
-
----
-
-## ✨ Why Matplotlib?
-
-Matplotlib is useful because it allows you to:
-
-* 📈 Visualize trends and patterns
-* 📊 Create professional statistical charts
-* 🔍 Explore datasets visually
-* 🧠 Understand machine-learning results
-* 📉 Analyze distributions and relationships
-* 🎨 Customize colors, labels, fonts, and layouts
-* 💾 Save visualizations in multiple formats
-* 🔬 Create publication-quality scientific figures
+This lecture is not just about making graphs,
+it’s about understanding **how data can be visually represented, analyzed, and communicated**.
 
 ---
 
-## 🚀 Features
+## ⚡ What You Will Learn
 
-| Feature          | Description                                 |
-| ---------------- | ------------------------------------------- |
-| 📈 Line Plot     | Visualize trends over time                  |
-| 📊 Bar Chart     | Compare categories                          |
-| 🥧 Pie Chart     | Show proportions                            |
-| 🔵 Scatter Plot  | Analyze relationships                       |
-| 📦 Box Plot      | Understand distributions and outliers       |
-| 📉 Histogram     | Analyze frequency distributions             |
-| 🗺️ Subplots     | Display multiple charts together            |
-| 🎨 Customization | Control colors, styles, labels, and layouts |
-| 💾 Export        | Save figures as PNG, JPG, SVG, PDF, etc.    |
-| 🎬 Animation     | Create animated visualizations              |
+* What is Matplotlib
+* Why Matplotlib is used
+* Installing and importing Matplotlib
+* Creating basic plots
+* Line charts
+* Bar charts
+* Scatter plots
+* Adding titles and labels
+* Customizing graphs
+* Understanding `figure()` and `show()`
 
 ---
 
-## 🛠️ Installation
+## 🖼️ Visual Understanding
 
-Install Matplotlib using `pip`:
+<p align="center">
+  <img src="https://matplotlib.org/stable/_images/sphx_glr_pyplot_001.png" width="600">
+</p>
 
-```bash
-pip install matplotlib
-```
-
-Or install it using Conda:
-
-```bash
-conda install matplotlib
-```
-
-Verify the installation:
-
-```bash
-python -c "import matplotlib; print(matplotlib.__version__)"
-```
+<p align="center">
+  <i>📊 Data → Matplotlib → Visualization → Better Understanding</i>
+</p>
 
 ---
 
-# 🧑‍💻 Quick Start
+## 🧪 Code Example
 
 ```python
 import matplotlib.pyplot as plt
 
 x = [1, 2, 3, 4, 5]
-y = [2, 4, 6, 8, 10]
+y = [10, 20, 15, 30, 25]
 
 plt.plot(x, y)
 
-plt.title("Simple Line Plot")
+plt.title("Simple Line Chart")
 plt.xlabel("X Values")
 plt.ylabel("Y Values")
 
 plt.show()
 ```
 
-### Output
-
-This creates a simple line chart showing the relationship between `x` and `y`.
-
 ---
 
-# 📈 Common Visualizations
+## 📈 Common Matplotlib Charts
 
-## 1. Line Plot
+### 1️⃣ Line Plot
 
-Useful for showing trends.
+Used to show **trends and changes over time**.
 
 ```python
 import matplotlib.pyplot as plt
 
-months = ["Jan", "Feb", "Mar", "Apr", "May"]
-sales = [120, 150, 180, 170, 220]
+months = ["Jan", "Feb", "Mar", "Apr"]
+sales = [100, 150, 120, 200]
 
-plt.plot(months, sales, marker="o")
+plt.plot(months, sales)
 
 plt.title("Monthly Sales")
 plt.xlabel("Month")
@@ -126,347 +86,111 @@ plt.show()
 
 ---
 
-## 2. Bar Chart
+### 2️⃣ Bar Chart
 
-Useful for comparing categories.
+Used to **compare different categories**.
 
 ```python
 import matplotlib.pyplot as plt
 
-products = ["Laptop", "Phone", "Tablet", "Monitor"]
-sales = [50, 90, 40, 65]
+subjects = ["Python", "SQL", "ML", "Power BI"]
+marks = [85, 78, 90, 88]
 
-plt.bar(products, sales)
+plt.bar(subjects, marks)
 
-plt.title("Product Sales")
-plt.xlabel("Product")
-plt.ylabel("Units Sold")
+plt.title("Student Performance")
+plt.xlabel("Subjects")
+plt.ylabel("Marks")
 
 plt.show()
 ```
 
 ---
 
-## 3. Scatter Plot
+### 3️⃣ Scatter Plot
 
-Useful for finding relationships between variables.
+Used to identify **relationships and patterns between two variables**.
 
 ```python
 import matplotlib.pyplot as plt
 
-height = [150, 160, 165, 170, 175, 180]
-weight = [50, 55, 60, 65, 70, 78]
+hours = [1, 2, 3, 4, 5, 6]
+marks = [40, 45, 55, 65, 75, 85]
 
-plt.scatter(height, weight)
+plt.scatter(hours, marks)
 
-plt.title("Height vs Weight")
-plt.xlabel("Height (cm)")
-plt.ylabel("Weight (kg)")
+plt.title("Study Hours vs Marks")
+plt.xlabel("Study Hours")
+plt.ylabel("Marks")
 
 plt.show()
 ```
 
 ---
 
-## 4. Histogram
+## 🔧 Important Matplotlib Functions
 
-Useful for understanding data distributions.
+| Function        | Purpose             |
+| --------------- | ------------------- |
+| `plt.plot()`    | Create line plot    |
+| `plt.bar()`     | Create bar chart    |
+| `plt.scatter()` | Create scatter plot |
+| `plt.hist()`    | Create histogram    |
+| `plt.title()`   | Add graph title     |
+| `plt.xlabel()`  | Label X-axis        |
+| `plt.ylabel()`  | Label Y-axis        |
+| `plt.legend()`  | Add legend          |
+| `plt.grid()`    | Add grid            |
+| `plt.show()`    | Display graph       |
+
+---
+
+## 💡 Why This Matters
+
+Data is much easier to understand when it is visualized.
+
+✔ Convert raw data into meaningful graphs
+✔ Identify trends and patterns
+✔ Compare different categories
+✔ Communicate data effectively
+✔ Build a foundation for Data Science and Machine Learning
+
+---
+
+## 🎯 Outcome
+
+By the end of this lecture, you will:
+
+* Create basic visualizations using Matplotlib
+* Understand line, bar, and scatter plots
+* Add titles and axis labels
+* Customize basic graphs
+* Visualize real-world datasets
+* Be ready for **Pandas Data Visualization and Data Analysis**
+
+---
+
+## 🚀 Mini Project
+
+### 📊 Student Performance Visualization
+
+Create a graph showing:
 
 ```python
-import matplotlib.pyplot as plt
-
-ages = [18, 20, 21, 22, 22, 23, 24, 25, 25, 26, 28, 30]
-
-plt.hist(ages, bins=5)
-
-plt.title("Age Distribution")
-plt.xlabel("Age")
-plt.ylabel("Frequency")
-
-plt.show()
+students = ["Ali", "Ahmed", "Sara", "Hassan", "Ayesha"]
+marks = [75, 82, 91, 68, 88]
 ```
 
----
-
-## 5. Pie Chart
-
-Useful for displaying proportions.
-
-```python
-import matplotlib.pyplot as plt
-
-labels = ["Python", "Java", "C++", "JavaScript"]
-values = [40, 25, 20, 15]
-
-plt.pie(values, labels=labels, autopct="%1.1f%%")
-
-plt.title("Programming Language Usage")
-
-plt.show()
-```
-
----
-
-# 🎨 Customizing Plots
-
-Matplotlib provides extensive customization options.
-
-```python
-import matplotlib.pyplot as plt
-
-x = [1, 2, 3, 4, 5]
-y = [10, 20, 15, 30, 25]
-
-plt.plot(
-    x,
-    y,
-    marker="o",
-    linestyle="--",
-    linewidth=2
-)
-
-plt.title("Customized Plot")
-plt.xlabel("X Axis")
-plt.ylabel("Y Axis")
-
-plt.grid(True)
-
-plt.show()
-```
-
-You can customize:
-
-* Titles
-* Axis labels
-* Legends
-* Grid lines
-* Markers
-* Line styles
-* Figure size
-* Fonts
-* Tick labels
-* Annotations
-* Subplots
-
----
-
-# 🧩 Subplots
-
-Multiple visualizations can be placed inside one figure.
-
-```python
-import matplotlib.pyplot as plt
-
-fig, axes = plt.subplots(1, 2, figsize=(10, 4))
-
-axes[0].plot([1, 2, 3], [2, 4, 6])
-axes[0].set_title("Line Plot")
-
-axes[1].bar(["A", "B", "C"], [10, 20, 15])
-axes[1].set_title("Bar Chart")
-
-plt.tight_layout()
-plt.show()
-```
-
----
-
-# 💾 Saving Figures
-
-You can save visualizations instead of only displaying them.
-
-```python
-plt.savefig("sales_chart.png", dpi=300, bbox_inches="tight")
-```
-
-Matplotlib supports formats such as:
-
-* PNG
-* JPG
-* SVG
-* PDF
-* EPS
-
----
-
-# 🧠 Matplotlib in Data Science
-
-Matplotlib is commonly used throughout a Data Science workflow:
-
-```text
-Raw Data
-   ↓
-Data Cleaning
-   ↓
-Exploratory Data Analysis
-   ↓
-Visualization
-   ↓
-Feature Engineering
-   ↓
-Machine Learning
-   ↓
-Model Evaluation
-   ↓
-Visualization of Results
-```
-
-It works especially well with:
-
-* 🐼 Pandas
-* 🔢 NumPy
-* 🤖 Scikit-learn
-* 📊 Seaborn
-* 📓 Jupyter Notebook
-
----
-
-# 📚 Learning Path
-
-A practical learning path for Matplotlib:
-
-### Beginner
-
-* `plt.plot()`
-* `plt.bar()`
-* `plt.scatter()`
-* `plt.hist()`
-* `plt.pie()`
-* Titles and labels
-* Legends
-* Grid
-
-### Intermediate
-
-* Figure and Axes
-* Subplots
-* Customization
-* Annotations
-* Tick formatting
-* Multiple datasets
-* Saving figures
-
-### Advanced
-
-* Object-oriented API
-* Advanced layouts
-* Custom projections
-* Animations
-* Interactive figures
-* Publication-quality visualization
-* Integration with scientific and ML workflows
-
----
-
-# 📁 Recommended Project Structure
-
-```text
-matplotlib-project/
-│
-├── README.md
-├── requirements.txt
-│
-├── data/
-│   └── dataset.csv
-│
-├── notebooks/
-│   └── visualization.ipynb
-│
-├── src/
-│   └── visualization.py
-│
-├── outputs/
-│   └── charts/
-│
-└── .gitignore
-```
-
----
-
-# 📦 Requirements
-
-Example `requirements.txt`:
-
-```text
-matplotlib
-numpy
-pandas
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# 🌟 Best Practices
-
-When creating visualizations:
-
-1. **Choose the right chart for the question.**
-2. Keep charts simple and readable.
-3. Always label important axes.
-4. Use meaningful titles.
-5. Avoid unnecessary visual clutter.
-6. Choose appropriate scales.
-7. Highlight important insights.
-8. Use legends when multiple datasets are shown.
-9. Save important figures at high resolution.
-10. Focus on communicating the data, not decorating the chart.
-
----
-
-# 🔗 Resources
-
-* 📖 [Official Documentation](https://matplotlib.org/stable/)
-* 🎨 [Matplotlib Gallery](https://matplotlib.org/stable/gallery/index.html)
-* 💻 [GitHub Repository](https://github.com/matplotlib/matplotlib)
-* 📚 [Pyplot Tutorial](https://matplotlib.org/stable/tutorials/pyplot.html)
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome!
-
-If you find a bug or have an idea for improvement:
-
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes.
-4. Test your changes.
-5. Commit your work.
-6. Open a Pull Request.
-
-```bash
-git checkout -b feature/my-feature
-git add .
-git commit -m "Add new visualization feature"
-git push origin feature/my-feature
-```
-
----
-
-# 📄 License
-
-Matplotlib is distributed under the **Matplotlib license**, based on the permissive PSF-style license.
-
-For complete licensing information, refer to the project's official repository.
-
----
-
-## ⭐ Support
-
-If you find Matplotlib useful, consider giving the project a ⭐ on GitHub and exploring its extensive visualization gallery.
+Your task:
+
+1. Create a bar chart
+2. Add a title
+3. Add X and Y labels
+4. Display the graph
+5. Identify the student with the highest marks
 
 ---
 
 <p align="center">
-  <strong>Turn Data Into Insight. 📊</strong>
-</p>
-
-<p align="center">
-  Made with Python 🐍 and Matplotlib 📈
+  <b>🚀 Don't just look at data — visualize it, understand it, and make decisions from it.</b>
 </p>
