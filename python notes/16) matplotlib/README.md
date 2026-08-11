@@ -26,54 +26,56 @@ it’s about understanding **how data can be visually represented, analyzed, and
 * Line charts
 * Bar charts
 * Scatter plots
+* Histograms
 * Adding titles and labels
 * Customizing graphs
-* Understanding `figure()` and `show()`
+* Saving graphs
 
 ---
 
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://matplotlib.org/stable/_images/sphx_glr_pyplot_001.png" width="600">
+  <img src="https://matplotlib.org/stable/_images/sphx_glr_pyplot_001.png" width="650">
 </p>
 
 <p align="center">
-  <i>📊 Data → Matplotlib → Visualization → Better Understanding</i>
+  <i>📊 Raw Data → Matplotlib → Visualization → Better Insights</i>
 </p>
 
 ---
 
-## 🧪 Code Example
+## 🧪 Getting Started
+
+First, import Matplotlib:
 
 ```python
 import matplotlib.pyplot as plt
+```
 
-x = [1, 2, 3, 4, 5]
-y = [10, 20, 15, 30, 25]
+If Matplotlib is not installed:
 
-plt.plot(x, y)
-
-plt.title("Simple Line Chart")
-plt.xlabel("X Values")
-plt.ylabel("Y Values")
-
-plt.show()
+```bash
+pip install matplotlib
 ```
 
 ---
 
-## 📈 Common Matplotlib Charts
+# 📈 1. Line Plot
 
-### 1️⃣ Line Plot
+A **Line Plot** is used to show trends, changes, and patterns across values or time.
 
-Used to show **trends and changes over time**.
+<p align="center">
+  <img src="https://matplotlib.org/stable/_images/sphx_glr_simple_plot_001.png" width="600">
+</p>
+
+### 🧪 Example
 
 ```python
 import matplotlib.pyplot as plt
 
-months = ["Jan", "Feb", "Mar", "Apr"]
-sales = [100, 150, 120, 200]
+months = ["Jan", "Feb", "Mar", "Apr", "May"]
+sales = [100, 150, 120, 180, 220]
 
 plt.plot(months, sales)
 
@@ -84,11 +86,20 @@ plt.ylabel("Sales")
 plt.show()
 ```
 
+💡 **Use Case:**
+Sales trends, temperature changes, stock prices, website traffic, and time-series data.
+
 ---
 
-### 2️⃣ Bar Chart
+# 📊 2. Bar Chart
 
-Used to **compare different categories**.
+A **Bar Chart** is used to compare values between different categories.
+
+<p align="center">
+  <img src="https://matplotlib.org/stable/_images/sphx_glr_barchart_001.png" width="600">
+</p>
+
+### 🧪 Example
 
 ```python
 import matplotlib.pyplot as plt
@@ -105,11 +116,20 @@ plt.ylabel("Marks")
 plt.show()
 ```
 
+💡 **Use Case:**
+Comparing students, products, departments, sales categories, or performance.
+
 ---
 
-### 3️⃣ Scatter Plot
+# 🔵 3. Scatter Plot
 
-Used to identify **relationships and patterns between two variables**.
+A **Scatter Plot** displays individual data points and helps us understand the relationship between two numerical variables.
+
+<p align="center">
+  <img src="https://matplotlib.org/stable/_images/sphx_glr_scatter_demo2_001.png" width="600">
+</p>
+
+### 🧪 Example
 
 ```python
 import matplotlib.pyplot as plt
@@ -126,9 +146,75 @@ plt.ylabel("Marks")
 plt.show()
 ```
 
+💡 **Use Case:**
+Finding relationships, correlations, patterns, and outliers in data.
+
 ---
 
-## 🔧 Important Matplotlib Functions
+# 📊 4. Histogram
+
+A **Histogram** is used to understand the distribution of numerical data.
+
+<p align="center">
+  <img src="https://matplotlib.org/stable/_images/sphx_glr_histogram_features_001.png" width="600">
+</p>
+
+### 🧪 Example
+
+```python
+import matplotlib.pyplot as plt
+
+marks = [
+    45, 50, 52, 55, 60,
+    62, 65, 70, 72, 75,
+    78, 80, 82, 85, 88,
+    90, 92
+]
+
+plt.hist(marks, bins=5)
+
+plt.title("Distribution of Marks")
+plt.xlabel("Marks")
+plt.ylabel("Number of Students")
+
+plt.show()
+```
+
+💡 **Use Case:**
+Understanding distributions, frequency, data spread, and unusual values.
+
+---
+
+# 🎨 5. Customizing a Plot
+
+Matplotlib allows us to customize graphs using different properties.
+
+```python
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 15, 30, 25]
+
+plt.plot(
+    x,
+    y,
+    marker="o",
+    linestyle="--",
+    linewidth=2
+)
+
+plt.title("Customized Line Plot")
+plt.xlabel("X Values")
+plt.ylabel("Y Values")
+
+plt.grid(True)
+
+plt.show()
+```
+
+---
+
+# 🧩 Important Matplotlib Functions
 
 | Function        | Purpose             |
 | --------------- | ------------------- |
@@ -142,18 +228,20 @@ plt.show()
 | `plt.legend()`  | Add legend          |
 | `plt.grid()`    | Add grid            |
 | `plt.show()`    | Display graph       |
+| `plt.savefig()` | Save graph as image |
 
 ---
 
 ## 💡 Why This Matters
 
-Data is much easier to understand when it is visualized.
+Data becomes much easier to understand when we visualize it.
 
 ✔ Convert raw data into meaningful graphs
 ✔ Identify trends and patterns
 ✔ Compare different categories
-✔ Communicate data effectively
-✔ Build a foundation for Data Science and Machine Learning
+✔ Understand relationships between variables
+✔ Detect unusual data points
+✔ Communicate insights effectively
 
 ---
 
@@ -162,32 +250,56 @@ Data is much easier to understand when it is visualized.
 By the end of this lecture, you will:
 
 * Create basic visualizations using Matplotlib
-* Understand line, bar, and scatter plots
+* Understand line plots
+* Create bar charts
+* Create scatter plots
+* Create histograms
 * Add titles and axis labels
 * Customize basic graphs
-* Visualize real-world datasets
-* Be ready for **Pandas Data Visualization and Data Analysis**
+* Save visualizations
+* Understand the fundamentals of data visualization
 
 ---
 
-## 🚀 Mini Project
+# 🚀 Mini Project
 
-### 📊 Student Performance Visualization
+## 📊 Student Performance Visualization
 
-Create a graph showing:
+Use the following data:
 
 ```python
 students = ["Ali", "Ahmed", "Sara", "Hassan", "Ayesha"]
 marks = [75, 82, 91, 68, 88]
 ```
 
-Your task:
+### Your Task
 
 1. Create a bar chart
-2. Add a title
-3. Add X and Y labels
+2. Add a suitable title
+3. Add X-axis and Y-axis labels
 4. Display the graph
-5. Identify the student with the highest marks
+5. Find the student with the highest marks
+6. Save the graph as an image
+
+---
+
+## 🔥 Learning Path
+
+```text
+Python
+   ↓
+NumPy
+   ↓
+Pandas
+   ↓
+Matplotlib
+   ↓
+Seaborn
+   ↓
+Data Analysis
+   ↓
+Machine Learning
+```
 
 ---
 
