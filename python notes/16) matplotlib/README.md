@@ -429,7 +429,7 @@ Finding relationships, correlations, patterns, and outliers in data.
 A **Histogram** is used to understand the distribution of numerical data by showing how frequently values occur within ranges called **bins**.
 
 <p align="center">
-  <img src="https://matplotlib.org/stable/_images/sphx_glr_histogram_features_001.png" width="600">
+  <img src="https://matplotlib.org/stable/_images/sphx_glr_histogram_histtypes_001.png" width="600">
 </p>
 
 ### 🧪 Example
@@ -454,7 +454,7 @@ plt.show()
 ```
 
 💡 **Use Case:**
-Understanding data distribution, frequency, spread, and identifying unusual values.
+Understanding distributions, frequency, data spread, and unusual values.
 
 ---
 
