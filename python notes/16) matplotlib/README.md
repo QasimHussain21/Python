@@ -454,7 +454,7 @@ plt.show()
 ```
 
 💡 **Use Case:**
-Understanding distributions, frequency, data spread, and unusual values.
+Understanding data distribution, frequency, spread, and identifying unusual values.
 
 ---
 
