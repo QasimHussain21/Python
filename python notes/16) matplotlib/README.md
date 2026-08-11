@@ -261,45 +261,6 @@ By the end of this lecture, you will:
 
 ---
 
-# 🚀 Mini Project
-
-## 📊 Student Performance Visualization
-
-Use the following data:
-
-```python
-students = ["Ali", "Ahmed", "Sara", "Hassan", "Ayesha"]
-marks = [75, 82, 91, 68, 88]
-```
-
-### Your Task
-
-1. Create a bar chart
-2. Add a suitable title
-3. Add X-axis and Y-axis labels
-4. Display the graph
-5. Find the student with the highest marks
-6. Save the graph as an image
-
----
-
-## 🔥 Learning Path
-
-```text
-Python
-   ↓
-NumPy
-   ↓
-Pandas
-   ↓
-Matplotlib
-   ↓
-Seaborn
-   ↓
-Data Analysis
-   ↓
-Machine Learning
-```
 
 ---
 
