@@ -38,10 +38,10 @@ it’s about understanding **how data can be visually represented, analyzed, and
 <p align="center">
   <img src="https://education.launchcode.org/data-analysis/_images/diagramPandasDataframe.png" width="650">
 </p>
-
+<!-- 
 <p align="center">
   <i>📊 Raw Data → Matplotlib → Visualization → Better Insights</i>
-</p>
+</p> -->
 
 ---
 
