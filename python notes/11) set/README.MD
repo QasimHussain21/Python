@@ -1,4 +1,4 @@
-# 📖 Lecture 10: Sets in Python
+# 📖 Lecture 11: Sets in Python
 
 <p align="center">
   <img src="https://img.shields.io/badge/Topic-Sets-blue?style=for-the-badge">
