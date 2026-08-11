@@ -1,9 +1,7 @@
 # 📖 Lecture 15: Pandas in Python
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Topic-Pandas-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Concept-Data%20Analysis-yellow?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Level-Beginner-success?style=for-the-badge">
+  <img src="https://pandas.pydata.org/static/img/pandas.svg" width="300">
 </p>
 
 
