@@ -610,117 +610,7 @@ for key, value in student.items():
 
 ---
 
-<!-- # 🏗️ 14. Object-Oriented Programming
-
-**Object-Oriented Programming (OOP)** is a programming approach based on **classes and objects**.
-
-<p align="center">
-  <img src="https://miro.medium.com/v2/resize%3Afit%3A697/1%2Aq0Tw3AvDkXhS_Ot3Y5_fxw.png" width="650">
-</p>
-
-<p align="center">
-  <i>💡 OOP → Class + Object + Inheritance + Encapsulation + Polymorphism + Abstraction</i>
-</p>
-
-```text
-Class
-  ↓
-Object
-  ↓
-Attributes + Methods
-```
-
-## Class
-
-A class is a blueprint for creating objects.
-
-```python
-class Student:
-    pass
-```
-
-## Object
-
-An object is an instance of a class.
-
-```python
-student1 = Student()
-```
-
----
-
-## `__init__()` Method
-
-The `__init__()` method is commonly used to initialize object attributes.
-
-```python
-class Student:
-
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-student1 = Student("Ali", 21)
-
-print(student1.name)
-print(student1.age)
-```
-
----
-
-## `self`
-
-`self` refers to the current object.
-
-```python
-class Student:
-
-    def __init__(self, name):
-        self.name = name
-```
-
----
-
-# 🧱 Four Main OOP Concepts
-
-## 🔒 Encapsulation
-
-Combining data and methods inside a class and controlling how they are accessed.
-
-## 🧬 Inheritance
-
-A class can inherit properties and methods from another class.
-
-```python
-class Animal:
-    def speak(self):
-        print("Animal sound")
-
-
-class Dog(Animal):
-    pass
-
-dog = Dog()
-dog.speak()
-```
-
-## 🔄 Polymorphism
-
-Different objects can provide different implementations of the same operation or method.
-
-## 🎭 Abstraction
-
-<p align="center">
-  <img src="https://emitechlogic.com/wp-content/uploads/2024/09/Abstraction-in-Python.png" width="550">
-</p>
-
-<p align="center">
-  <i>🎭 Abstraction in Python → Abstract Class → Subclasses → Specific Implementations</i>
-</p> -->
-
----
-
-# 🔢 15. NumPy
+# 🔢 14. NumPy
 
 **NumPy** is a Python library designed for numerical computing and working with arrays.
 
@@ -795,7 +685,7 @@ NumPy provides the foundation for efficient numerical and array-based operations
 
 ---
 
-# 🐼 16. Pandas
+# 🐼 15. Pandas
 
 **Pandas** is a Python library used for **data manipulation and data analysis**.
 
@@ -806,7 +696,6 @@ NumPy provides the foundation for efficient numerical and array-based operations
 <p align="center">
   <i>💡 Pandas → Data → DataFrame / Series → Select → Modify → Analyze</i>
 </p>
-
 
 ```python
 import pandas as pd
@@ -886,7 +775,7 @@ df.dropna()
 
 ---
 
-# 📈 17. Matplotlib
+# 📈 16. Matplotlib
 
 **Matplotlib** is a Python library used for **data visualization**.
 
