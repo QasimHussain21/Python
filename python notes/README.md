@@ -840,6 +840,9 @@ plt.title("Line Plot")
 
 plt.show()
 ```
+<p align="center">
+  <img src="https://matplotlib.org/stable/_images/sphx_glr_simple_plot_001.png" width="600">
+</p>
 
 ## Bar Chart
 
@@ -881,6 +884,9 @@ plt.hist(data)
 plt.title("Histogram")
 plt.show()
 ```
+<p align="center">
+  <img src="https://matplotlib.org/stable/_images/sphx_glr_histogram_histtypes_001.png" width="600">
+</p>
 
 ## Pie Chart
 
