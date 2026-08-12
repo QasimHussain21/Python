@@ -74,7 +74,7 @@ Hello, World!
 The `print()` function displays information on the screen.
 
 <p align="center">
-  <img src="https://www.python.org/static/community_logos/python-logo-generic.svg" width="300">
+  <img src="https://www.python.org/static/community_logos/python-logo-generic.svg" width="600">
 </p>
 
 ---
@@ -90,7 +90,7 @@ marks = 87.5
 is_student = True
 ```
 <p align="center">
-  <img src="data_types.png" width="300">
+  <img src="data_types.png" width="600">
 </p>
 
 
@@ -129,7 +129,7 @@ print(type(x))
 Operators are symbols used to perform operations on values.
 
 <p align="center">
-  <img src="image.png" width="300">
+  <img src="image.png" width="600">
 </p>
 
 ## Arithmetic Operators
