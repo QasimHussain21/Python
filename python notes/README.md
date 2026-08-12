@@ -610,7 +610,7 @@ for key, value in student.items():
 
 ---
 
-# 🏗️ 14. Object-Oriented Programming
+<!-- # 🏗️ 14. Object-Oriented Programming
 
 **Object-Oriented Programming (OOP)** is a programming approach based on **classes and objects**.
 
@@ -716,7 +716,7 @@ Different objects can provide different implementations of the same operation or
 
 <p align="center">
   <i>🎭 Abstraction in Python → Abstract Class → Subclasses → Specific Implementations</i>
-</p>
+</p> -->
 
 ---
 
@@ -800,7 +800,7 @@ NumPy provides the foundation for efficient numerical and array-based operations
 **Pandas** is a Python library used for **data manipulation and data analysis**.
 
 <p align="center">
-  <img src="https://pandas.pydata.org/static/img/pandas_white.svg" width="300">
+  <img src="pandas.png" width="600">
 </p>
 
 <p align="center">
