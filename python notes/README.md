@@ -26,6 +26,11 @@ The purpose is to build a strong Python foundation through **concepts, examples,
 
 # 🗺️ Python Learning Roadmap
 
+<p align="center">
+  <img src="image-2.png" width="600">
+</p>
+<!-- ![alt text](image-2.png) -->
+<!-- 
 ```text
 🐍 Python
    │
@@ -63,7 +68,7 @@ The purpose is to build a strong Python foundation through **concepts, examples,
           ├── NumPy
           ├── Pandas
           └── Matplotlib
-```
+``` -->
 
 ---
 
