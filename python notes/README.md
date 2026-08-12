@@ -177,6 +177,14 @@ print(not(x > 5))
 
 A **string** is a sequence of characters enclosed in quotes.
 
+<p align="center">
+  <img src="https://realpython.com/cdn-cgi/image/width=960,format=auto/https://files.realpython.com/media/Python-String-Formatting-Best-Practices_Watermarked-2.e0a560b0184d.jpg" width="600">
+</p>
+
+<p align="center">
+  <i>How strings are sliced and manipulated in Python</i>
+</p>
+
 ```python
 name = "Python"
 
@@ -230,6 +238,14 @@ print(text.replace("python", "world"))
 
 Control flow determines **which statements execute and when**.
 
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/0*uHOTfnSmUqMvKSqv.jpg" width="600">
+</p>
+
+<p align="center">
+  <i>How control flow directs program execution based on conditions</i>
+</p>
+
 ## If Statement
 
 ```python
@@ -262,10 +278,6 @@ elif marks >= 80:
 else:
     print("Needs Improvement")
 ```
-
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Flowchart.svg" width="550">
-</p>
 
 ---
 
