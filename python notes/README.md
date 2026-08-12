@@ -660,11 +660,11 @@ Different objects can provide different implementations of the same operation or
 ## 🎭 Abstraction
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/CPT-OOP.svg/1280px-CPT-OOP.svg.png" width="650">
+  <img src="https://emitechlogic.com/wp-content/uploads/2024/09/Abstraction-in-Python.png" width="550">
 </p>
 
 <p align="center">
-  <i>🎭 Abstraction is one of the four fundamental concepts of Object-Oriented Programming.</i>
+  <i>🎭 Abstraction in Python → Abstract Class → Subclasses → Specific Implementations</i>
 </p>
 
 ---
