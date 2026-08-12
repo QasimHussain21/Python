@@ -864,6 +864,9 @@ plt.scatter(x, y)
 plt.title("Scatter Plot")
 plt.show()
 ```
+<p align="center">
+  <img src="https://matplotlib.org/stable/_images/sphx_glr_scatter_demo2_001.png" width="600">
+</p>
 
 ## Histogram
 
