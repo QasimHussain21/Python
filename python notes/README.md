@@ -912,24 +912,6 @@ plt.show()
 <p align="center">
   <img src="image-1.png" width="600"> 
 </p> 
-```text
-                 🐍 Python
-                    │
-          ┌─────────┴─────────┐
-          │                   │
-      Programming          Data Science
-          │                   │
-   Variables & Types          │
-   Operators                  │
-   Conditions                NumPy
-   Loops                      ↓
-   Functions               Pandas
-   Data Structures            ↓
-   OOP                    Matplotlib
-                              │
-                              ↓
-                       📊 Data Insights
-```
 
 ---
 
