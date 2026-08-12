@@ -49,7 +49,7 @@ The main idea is to learn how structured data can be **loaded, inspected, modifi
 ## 🖼️ Visual Understanding
 
 <p align="center">
-  <img src="https://pandas.pydata.org/static/img/pandas_white.svg" width="300">
+  <img src="pandas.png" width="600">
 </p>
 
 <p align="center">

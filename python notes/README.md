@@ -129,7 +129,7 @@ print(type(x))
 Operators are symbols used to perform operations on values.
 
 <p align="center">
-  <img src="image.png" width="600">
+  <img src="operators.png" width="600">
 </p>
 
 ## Arithmetic Operators
