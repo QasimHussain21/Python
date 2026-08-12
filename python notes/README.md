@@ -27,7 +27,7 @@ The purpose is to build a strong Python foundation through **concepts, examples,
 # 🗺️ Python Learning Roadmap
 
 <p align="center">
-  <img src="image-2.png" width="600">
+  <img src="python_roadmap.png" width="600">
 </p>
 
 ---
@@ -89,6 +89,11 @@ age = 21
 marks = 87.5
 is_student = True
 ```
+<p align="center">
+  <img src="data_types.png" width="300">
+</p>
+
+
 
 ### Common Python Data Types
 
@@ -122,6 +127,10 @@ print(type(x))
 # ➕ 4. Operators
 
 Operators are symbols used to perform operations on values.
+
+<p align="center">
+  <img src="image.png" width="300">
+</p>
 
 ## Arithmetic Operators
 
@@ -864,7 +873,7 @@ plt.legend()
 plt.show()
 ```
 <p align="center">
-  <img src="image.png" width="600">
+  <img src="piechart.png" width="600">
 </p> 
 
 <p align="center">
@@ -875,7 +884,7 @@ plt.show()
 
 # 🔗 Python Data Science Workflow
 <p align="center">
-  <img src="image-1.png" width="600"> 
+  <img src="ds_workflow.png" width="600"> 
 </p> 
 
 ---
