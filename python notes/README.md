@@ -29,46 +29,6 @@ The purpose is to build a strong Python foundation through **concepts, examples,
 <p align="center">
   <img src="image-2.png" width="600">
 </p>
-<!-- ![alt text](image-2.png) -->
-<!-- 
-```text
-🐍 Python
-   │
-   ├── 👋 Hello World
-   │
-   ├── 📦 Variables & Data Types
-   │
-   ├── ➕ Operators
-   │
-   ├── 🔤 Strings
-   │
-   ├── 🔀 Control Flow
-   │      ├── if / elif / else
-   │      └── Loops
-   │
-   ├── 🧩 Functions
-   │      ├── Built-in Functions
-   │      └── User-Defined Functions
-   │
-   ├── 📚 Data Structures
-   │      ├── List
-   │      ├── Tuple
-   │      ├── Set
-   │      └── Dictionary
-   │
-   ├── 🏗️ Object-Oriented Programming
-   │      ├── Class
-   │      ├── Object
-   │      ├── Encapsulation
-   │      ├── Inheritance
-   │      ├── Polymorphism
-   │      └── Abstraction
-   │
-   └── 📊 Python for Data Science
-          ├── NumPy
-          ├── Pandas
-          └── Matplotlib
-``` -->
 
 ---
 
