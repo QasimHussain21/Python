@@ -891,19 +891,11 @@ plt.show()
 ```
 <p align="center">
   <img src="image.png" width="600">
-</p>
+</p> ![alt text](image-1.png)
 
 <p align="center">
   <i>🥧 Pie Chart using Python Matplotlib</i>
 </p> 
-
-<p align="center">
-  <img src="https://matplotlib.org/stable/_images/sphx_glr_pyplot_001.png" width="650">
-</p>
-
-<p align="center">
-  <i>📊 Data → Visualization → Insights</i>
-</p>
 
 ---
 
