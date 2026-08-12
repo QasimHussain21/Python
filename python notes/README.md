@@ -889,6 +889,13 @@ plt.pie(values, labels=labels)
 
 plt.show()
 ```
+<p align="center">
+  <img src="pie_chart.png" width="600">
+</p>
+
+<p align="center">
+  <i>🥧 Pie Chart — Language Distribution</i>
+</p>
 
 <p align="center">
   <img src="https://matplotlib.org/stable/_images/sphx_glr_pyplot_001.png" width="650">
