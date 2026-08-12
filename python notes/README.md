@@ -976,25 +976,6 @@ After completing these topics, you should be able to:
 
 ---
 
-# 🚀 From Beginner to Data Science
-
-```text
-🐍 Learn Python
-      ↓
-🧠 Understand Programming Logic
-      ↓
-📚 Master Data Structures
-      ↓
-🏗️ Learn OOP
-      ↓
-🔢 Learn NumPy
-      ↓
-🐼 Learn Pandas
-      ↓
-📊 Learn Matplotlib
-      ↓
-🤖 Ready for AI / ML / Data Science
-```
 
 ---
 
