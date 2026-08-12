@@ -285,6 +285,14 @@ else:
 
 Loops are used to **repeat a block of code**.
 
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/0*2Oi7FVy-Pmx8PSFH" width="600">
+</p>
+
+<p align="center">
+  <i>How loops repeat execution until a condition is met</i>
+</p>
+
 ## For Loop
 
 ```python
@@ -350,6 +358,14 @@ A **function** is a reusable block of code designed to perform a specific task.
 
 Python provides many functions that are already available.
 
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*vkkb8Fp55uDQrjey_S8_sw.png" width="600">
+</p>
+
+<p align="center">
+  <i>Built-in functions simplify common programming tasks</i>
+</p>
+
 ```python
 print("Hello")
 len("Python")
@@ -377,6 +393,15 @@ Common built-in functions include:
 ## 👨‍💻 User-Defined Functions
 
 A user-defined function is created using the `def` keyword.
+
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*XrTbbQV3-MpUnMCkIKEwkQ.jpeg" width="600">
+</p>
+
+<p align="center">
+  <i>How functions take input, process it, and return output.</i>
+</p>
+
 
 ```python
 def greet():
@@ -421,6 +446,14 @@ Dictionary → Key-Value Pairs
 
 A **list** stores multiple items in a single variable.
 
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*ZaWhbxRnAqoBflzKM4FZTA.png" width="600">
+</p>
+
+<p align="center">
+  <i>How lists store and organize multiple values</i>
+</p>
+
 ```python
 fruits = ["Apple", "Banana", "Mango"]
 
@@ -459,6 +492,14 @@ Lists are **mutable**, meaning their contents can be changed.
 
 A **tuple** is an ordered collection that cannot be changed after creation.
 
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*MLPj51_cWJVcYgGrDZNigw.png" width="600">
+</p>
+
+<p align="center">
+  <i>💡 Values → Tuple → Safe Storage → Easy Access</i>
+</p>
+
 ```python
 numbers = (10, 20, 30, 40)
 
@@ -485,6 +526,14 @@ Tuples are useful when data should remain unchanged.
 # 🔵 12. Set
 
 A **set** is an unordered collection of unique elements.
+
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*MalEvFSjkMeBdEHQiGCUBA.png" width="600">
+</p>
+
+<p align="center">
+  <i>💡 Values → Set → Unique Items → Fast Operations</i>
+</p>
 
 ```python
 numbers = {1, 2, 3, 3, 4}
@@ -513,6 +562,14 @@ Sets are useful when working with **unique values**.
 # 📖 13. Dictionary
 
 A **dictionary** stores information in **key-value pairs**.
+
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*fazaCKZgbZUbjrCR6_WcaA.png" width="550">
+</p>
+
+<p align="center">
+  <i>💡 Key + Value → Dictionary → Fast Access → Organized Data</i>
+</p>
 
 ```python
 student = {
@@ -556,6 +613,14 @@ for key, value in student.items():
 # 🏗️ 14. Object-Oriented Programming
 
 **Object-Oriented Programming (OOP)** is a programming approach based on **classes and objects**.
+
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize%3Afit%3A697/1%2Aq0Tw3AvDkXhS_Ot3Y5_fxw.png" width="650">
+</p>
+
+<p align="center">
+  <i>💡 OOP → Class + Object + Inheritance + Encapsulation + Polymorphism + Abstraction</i>
+</p>
 
 ```text
 Class
@@ -659,6 +724,14 @@ Different objects can provide different implementations of the same operation or
 
 **NumPy** is a Python library designed for numerical computing and working with arrays.
 
+<p align="center">
+  <img src="https://numpy.org/images/logo.svg" width="250">
+</p>
+
+<p align="center">
+  <i>💡 NumPy → Array → Dimensions → Indexing → Slicing → Data Manipulation</i>
+</p>
+
 ```python
 import numpy as np
 
@@ -725,6 +798,15 @@ NumPy provides the foundation for efficient numerical and array-based operations
 # 🐼 16. Pandas
 
 **Pandas** is a Python library used for **data manipulation and data analysis**.
+
+<p align="center">
+  <img src="https://pandas.pydata.org/static/img/pandas_white.svg" width="300">
+</p>
+
+<p align="center">
+  <i>💡 Pandas → Data → DataFrame / Series → Select → Modify → Analyze</i>
+</p>
+
 
 ```python
 import pandas as pd
