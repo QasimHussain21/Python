@@ -882,20 +882,20 @@ plt.show()
 ## Pie Chart
 
 ```python
-labels = ["Python", "Java", "C++"]
-values = [50, 30, 20]
-
-plt.pie(values, labels=labels)
-
+x = [10,20,30,40]
+y = {"English","Urdu","Hindi","Chinese"}
+c = {"yellow","magenta", "aqua","orange"}
+plt.pie(x, labels=y, colors = c)
+plt.legend()
 plt.show()
 ```
 <p align="center">
-  <img src="pie_chart.png" width="600">
+  <img src="image.png" width="600">
 </p>
 
 <p align="center">
-  <i>🥧 Pie Chart — Language Distribution</i>
-</p>
+  <i>🥧 Pie Chart using Python Matplotlib</i>
+</p> 
 
 <p align="center">
   <img src="https://matplotlib.org/stable/_images/sphx_glr_pyplot_001.png" width="650">
