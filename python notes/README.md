@@ -909,7 +909,9 @@ plt.show()
 ---
 
 # 🔗 Python Data Science Workflow
-
+<p align="center">
+  <img src="image-1.png" width="600"> 
+</p> 
 ```text
                  🐍 Python
                     │
