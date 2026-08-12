@@ -977,8 +977,6 @@ After completing these topics, you should be able to:
 ---
 
 
----
-
 <p align="center">
   <b>🐍 Learn Python. Build Logic. Analyze Data. Create Something Amazing. 🚀</b>
 </p>
