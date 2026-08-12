@@ -891,7 +891,7 @@ plt.show()
 ```
 <p align="center">
   <img src="image.png" width="600">
-</p> ![alt text](image-1.png)
+</p> 
 
 <p align="center">
   <i>🥧 Pie Chart using Python Matplotlib</i>
