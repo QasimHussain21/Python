@@ -851,10 +851,10 @@ plt.bar(names, marks)
 
 plt.title("Student Marks")
 plt.show()
+```
 <p align="center">
   <img src="https://matplotlib.org/stable/_images/sphx_glr_barchart_001.png" width="600">
 </p>
-```
 
 ## Scatter Plot
 
