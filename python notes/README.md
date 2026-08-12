@@ -660,11 +660,11 @@ Different objects can provide different implementations of the same operation or
 ## 🎭 Abstraction
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Abstraction.svg/1280px-Abstraction.svg.png" width="650">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/CPT-OOP.svg/1280px-CPT-OOP.svg.png" width="650">
 </p>
 
 <p align="center">
-  <i>🎭 Abstraction → Show essential features → Hide unnecessary implementation details</i>
+  <i>🎭 Abstraction is one of the four fundamental concepts of Object-Oriented Programming.</i>
 </p>
 
 ---
